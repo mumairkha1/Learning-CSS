@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(206, 230, 158)   ;
+}
+/* Last Rule */
+/* p{
+    color: red;
+}
+p{
+    color: paleturquoise;
+}
+p{
+  color: blueviolet;   
+}
+/* Spicificty Rule */
+/* *{
+    color: blue;
+}
+p{
+    color: rgb(114, 11, 20) !important;
+}
+p#intro{
+    color: rgb(5, 5, 4); 
+} */
+
+/* INHERITANCE */
+
+/* div{
+    color: yellowgreen; ;
+}
+p{
+    font-family: cursive;
+    color: white;
+} */
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    padding: 10px;
+    border: 1px solid;
+     }
+.page {
+    background-color: #efefef;
+    border: inherit;
+    padding: inherit;
+      }
